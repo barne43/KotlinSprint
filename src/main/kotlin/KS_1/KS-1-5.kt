@@ -1,4 +1,4 @@
-package org.example
+package org.example.KS_1
 
 fun main() {
     val totalSeconds = 6480

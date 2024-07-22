@@ -1,4 +1,4 @@
-package org.example
+package org.example.KS_1
 
 fun main(){
     val lenght: Long = 40_868_600_000
