@@ -2,7 +2,7 @@ package KS_2
 
 fun main(){
     val sum = 70000
-    val interestRate = 0.167
+    val interestRate = 16.7 / 100
     val throughYears = 20
 
     val finalAmount = sum * Math.pow(1 + interestRate, throughYears.toDouble())
