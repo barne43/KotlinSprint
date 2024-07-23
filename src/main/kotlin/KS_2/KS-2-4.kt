@@ -4,7 +4,7 @@ fun main(){
     val cristalOre = 7
     val ironOre = 11
 
-    val bonus = 0.20
+    val bonus = 20 / 100.0
 
     val bonusCristal = (cristalOre * bonus).toInt()
     val bonusIron = (ironOre * bonus).toInt()
