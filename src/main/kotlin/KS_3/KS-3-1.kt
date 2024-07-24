@@ -6,7 +6,7 @@ fun main(){
 
     val hourOfDay = java.util.Calendar.getInstance().get(java.util.Calendar.HOUR_OF_DAY)
 
-    if (hourOfDay in 6..17){
+    if (hourOfDay in SIX_HOUR_MORNING..FIVE_HOUR_EVENING){
         greeting = "Добрый день, $userName"
     } else {
         greeting = "Доброго вечера, $userName"
@@ -14,3 +14,5 @@ fun main(){
 
     println(greeting)
 }
+const val SIX_HOUR_MORNING = 6
+const val FIVE_HOUR_EVENING = 17
