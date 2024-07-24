@@ -4,13 +4,13 @@ fun main(){
     var familia = "Андреева"
     var age = 20
 
-    var FIO = "$familia $name $surname, $age"
+    var fio = "$familia $name $surname, $age"
 
-    println(FIO)
+    println(fio)
 
     familia = "Сидорова"
     age = 22
-    FIO = "$familia $name $surname, $age"
+    fio = "$familia $name $surname, $age"
 
-    println(FIO)
+    println(fio)
 }
