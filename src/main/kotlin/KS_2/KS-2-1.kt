@@ -7,5 +7,5 @@ fun main() {
     val studentAssessment3 = 3f
     val studentAssessment4 = 5f
 
-    println((studentAssessment1 + studentAssessment2 + studentAssessment3 + studentAssessment4) / students)
+    println((studentAssessment1 + studentAssessment2 + studentAssessment3 + studentAssessment4) / students.toFloat())
 }
