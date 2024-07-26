@@ -18,7 +18,7 @@ fun main(){
         println("Доступность столиков на сегодня: $availabilityOfTablesTomorrow")
     } else {
         availabilityOfTablesTomorrow = true
-        println("Доступность столиков на сегодня: $availabilityOfTablesTomorrow")
+        println("Доступность столиков на завтра: $availabilityOfTablesTomorrow")
     }
 }
 const val TOTAL_TABLES = 13
