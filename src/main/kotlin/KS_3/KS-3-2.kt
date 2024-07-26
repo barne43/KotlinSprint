@@ -1,3 +1,5 @@
+package KS_3
+
 fun main(){
     val name = "Татьяна"
     val surname = "Сергеевна"
