@@ -5,7 +5,7 @@ fun main(){
     print("Введите текущий состав корабля: ")
     val crewSize = readln().toInt()
 
-    print("Введите количество ящиков с проввизией: ")
+    print("Введите количество ящиков с провизией: ")
     val provisionCount = readln().toInt()
 
     print("Благоприятная ли погода? (true/false) ")
