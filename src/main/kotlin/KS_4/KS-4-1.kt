@@ -6,14 +6,14 @@ fun main(){
     var availabilityOfTablesToday: Boolean
     var availabilityOfTablesTomorrow: Boolean
 
-    if (tableAvailabilityToday >= 13){
+    if (tableAvailabilityToday >= TOTAL_TABLES){
         availabilityOfTablesToday = false
         println("Доступность столиков на сегодня: $availabilityOfTablesToday")
     } else {
         availabilityOfTablesToday = true
         println("Доступность столиков на сегодня: $availabilityOfTablesToday")
     }
-    if (tableAvailabilityTomorrow >= 13){
+    if (tableAvailabilityTomorrow >= TOTAL_TABLES){
         availabilityOfTablesTomorrow = false
         println("Доступность столиков на сегодня: $availabilityOfTablesTomorrow")
     } else {
@@ -21,3 +21,4 @@ fun main(){
         println("Доступность столиков на сегодня: $availabilityOfTablesTomorrow")
     }
 }
+const val TOTAL_TABLES = 13
