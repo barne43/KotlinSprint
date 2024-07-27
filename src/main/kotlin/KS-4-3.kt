@@ -9,13 +9,7 @@ fun main(){
     val airHumidityToday = 20
     val currentSeason = "зима"
 
-    val areTheConditionsFavorable: Boolean
+    val areTheConditionsFavorable = weatherToday == sunnyWeather && awningAtTheMoment == awning && airHumidityToday == airHumidity && currentSeason == season
 
-    if (weatherToday == sunnyWeather && awningAtTheMoment == awning && airHumidityToday == airHumidity && currentSeason == season) {
-        areTheConditionsFavorable = true
-        println("Благоприятные ли условия сейчас для роста бобовых? $areTheConditionsFavorable")
-    } else {
-        areTheConditionsFavorable = false
-        println("Благоприятные ли условия сейчас для роста бобовых? $areTheConditionsFavorable")
-    }
+    println("Благоприятные ли условия сейчас для роста бобовых? $areTheConditionsFavorable")
 }
