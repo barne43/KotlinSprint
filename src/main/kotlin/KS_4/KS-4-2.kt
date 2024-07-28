@@ -1,3 +1,5 @@
+package KS_4
+
 fun main(){
     val minWeight = 35
     val maxWeight = 100

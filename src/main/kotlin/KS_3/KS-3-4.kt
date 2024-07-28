@@ -1,3 +1,5 @@
+package KS_3
+
 fun main(){
     var from = "E2"
     var to = "E4"

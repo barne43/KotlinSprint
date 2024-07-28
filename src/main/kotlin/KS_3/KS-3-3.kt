@@ -1,4 +1,4 @@
-
+package KS_3
 fun main(){
     val num = 5
     val tabl = buildString {
