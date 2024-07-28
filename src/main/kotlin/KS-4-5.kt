@@ -11,8 +11,8 @@ fun main(){
     print("Благоприятная ли погода? (true/false) ")
     val isFavorableWeather = readln().toBoolean()
 
-    val canSail = ( !damageShip && crewSize in 55..70 && provisionCount < 50 && isFavorableWeather) ||
-            (damageShip && crewSize == 70 && provisionCount >= 50 && isFavorableWeather)
+    val canSail = ( !damageShip && crewSize in MIN_CREW_SIZE..MAX_CREW_SIZE && provisionCount < RECOMMENDED_AMOUNT_OF_PROVISION && isFavorableWeather) ||
+            (damageShip && crewSize == RECOMMENDED_CREW_SIZE && provisionCount >= RECOMMENDED_AMOUNT_OF_PROVISION && isFavorableWeather)
 
     if (canSail){
         println("Корабль может отправиться в плавание.")
@@ -20,3 +20,7 @@ fun main(){
         println("Корабль не может отправиться в плавание.")
     }
 }
+const val MIN_CREW_SIZE = 55
+const val MAX_CREW_SIZE = 70
+const val RECOMMENDED_AMOUNT_OF_PROVISION = 50
+const val RECOMMENDED_CREW_SIZE = 70
