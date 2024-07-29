@@ -1,10 +1,14 @@
 package KS_5
 
 fun main(){
-    print("Решите этот пример и докажите, что вы не бот: 5 + 5 = ")
+    val num1 = 5
+    val num2 = 5
+    val sum = num1 + num2
+
+    print("Решите этот пример и докажите, что вы не бот: $num1 + $num2 = ")
     val result = readln().toInt()
 
-    if (result == 10){
+    if (result == sum){
         println("Добро пожаловать!")
     } else {
         println("Доступ запрещен!")
